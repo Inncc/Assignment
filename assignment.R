@@ -8,7 +8,7 @@ fz <-function(z,a,r,L)
 {
   L^L*gamma(L-a)*z^(L-1)/(r^a*gamma(L)*gamma(-a)*(r+L*z)^(L-a))
 }
-urbanpic <- readPNG("D:/sar/ESAR_RGB_Annot3.png")
+urbanpic <- readPNG("D:/sar/sar-urban.png")
 r <- 0.299
 g <- 0.587
 b <- 0.114
